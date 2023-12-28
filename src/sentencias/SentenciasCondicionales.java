@@ -1,4 +1,4 @@
-package operadores.sentencias;
+package sentencias;
 
 import java.util.Scanner;
 
