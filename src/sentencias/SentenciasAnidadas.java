@@ -22,3 +22,4 @@ public class SentenciasAnidadas {
         sc.close(); // Cerrar el objeto Scanner al final
     }
 }
+
