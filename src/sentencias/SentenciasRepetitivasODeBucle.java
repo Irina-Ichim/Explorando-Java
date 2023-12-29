@@ -1,4 +1,6 @@
+package sentencias;
 import java.util.Scanner;
+
 
 public class SentenciasRepetitivasODeBucle {
 
