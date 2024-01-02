@@ -11,6 +11,14 @@ public class ComparacionObjetos {
      *
      * @param args Los argumentos de la línea de comandos (no se utilizan en este ejemplo).
      */
+
+     /**== (Comparación de Referencias): Este operador compara las referencias de dos objetos. Devolverá true solo si ambas referencias
+      * apuntan al mismo objeto en la memoria. En el ejemplo, cadena1 y cadena2 son dos objetos diferentes, aunque tengan el mismo 
+        contenido.
+      * equals() (Comparación de Contenido): Este método compara el contenido de dos objetos. La implementación predeterminada de equals()
+        en la clase Object compara las referencias, pero muchas clases, incluida String, sobrescriben este método para comparar el 
+        contenido. En el ejemplo, cadena1.equals(cadena2) devuelve true porque el contenido de ambos objetos es el mismo.
+     */
     public static void main(String[] args) {
         // Crear dos objetos con el mismo contenido
         String cadena1 = new String("Hola");
