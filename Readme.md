@@ -6,9 +6,6 @@ Este repositorio, "Explorando-Java", es un proyecto diseñado para ayudarte a en
 
 El objetivo principal de este proyecto es proporcionar un espacio donde puedas explorar y practicar los conceptos básicos de Java. A través de ejemplos prácticos y proyectos simples, esperamos facilitar tu aprendizaje y consolidar tus conocimientos en el lenguaje Java.
 
-## Estructura del Proyecto 📁
-
-
 ## Contenido del Proyecto 📚
 
 Este proyecto incluye un "mini proyecto para entender las herencias en Java". Puedes explorar las clases `Animal`, `Perro` y `Gato` dentro de la carpeta `proyectoherencia`, que demuestran conceptos de herencia y OOP en Java.
