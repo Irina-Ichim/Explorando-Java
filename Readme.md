@@ -19,7 +19,8 @@ Este proyecto abarca varios ejercicios:
 3. **Mini Proyecto de Polimorfismo de Sobrescritura 🚗**
    🚀 ¡Descubre cómo el polimorfismo facilita la ejecución del método de la subclase en lugar del método de la superclase!
 
-¡Disfruta explorando estos conceptos y mejorando tus habilidades en Java! 🌟
+4. **Ejercicio de abstracción: CLASES Y MÉTODOS ABSTRACTOS🚗**
+   Un pequeño ejercicio en Java que demuestra el concepto de abstracción en programación orientada a objetos. La abstracción ayuda a organizar y simplificar el diseño de programas orientados a objetos.
 
 ## Cómo Empezar 🛠️
 
