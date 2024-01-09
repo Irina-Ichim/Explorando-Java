@@ -8,7 +8,18 @@ El objetivo principal de este proyecto es proporcionar un espacio donde puedas e
 
 ## Contenido del Proyecto 📚
 
-Este proyecto incluye un "mini proyecto para entender las herencias en Java". Puedes explorar las clases `Animal`, `Perro` y `Gato` dentro de la carpeta `proyectoherencia`, que demuestran conceptos de herencia y OOP en Java.
+Este proyecto abarca varios ejercicios:
+
+1. **Mini Proyecto de Herencia en Java 🐾**
+   Explora las clases `Animal`, `Perro` y `Gato` dentro de la carpeta `proyectoherencia`. Estas clases demuestran conceptos de herencia y programación orientada a objetos (OOP) en Java.
+
+2. **Proyecto de Sobrecarga en Clases y Objetos 🎨**
+   Observa cómo la sobrescritura permite que los métodos de las subclases se ejecuten según el tipo real del objeto en tiempo de ejecución.
+
+3. **Mini Proyecto de Polimorfismo de Sobrescritura 🚗**
+   🚀 ¡Descubre cómo el polimorfismo facilita la ejecución del método de la subclase en lugar del método de la superclase!
+
+¡Disfruta explorando estos conceptos y mejorando tus habilidades en Java! 🌟
 
 ## Cómo Empezar 🛠️
 
