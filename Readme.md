@@ -22,6 +22,10 @@ Este proyecto abarca varios ejercicios:
 4. **Ejercicio de abstracción: CLASES Y MÉTODOS ABSTRACTOS🚗**
    Un pequeño ejercicio en Java que demuestra el concepto de abstracción en programación orientada a objetos. La abstracción ayuda a organizar y simplificar el diseño de programas orientados a objetos.
 
+5. **Ejercicio de interfaz: ProyectoInstrumentosMusicales 🎷**
+
+Este proyecto ejemplifica el uso de interfaces en Java mediante la representación de instrumentos musicales.
+
 ## Cómo Empezar 🛠️
 
 1. Clona este repositorio a tu máquina local usando el siguiente comando:
