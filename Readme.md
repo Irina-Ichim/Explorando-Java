@@ -26,6 +26,10 @@ Este proyecto abarca varios ejercicios:
 
 Este proyecto ejemplifica el uso de interfaces en Java mediante la representación de instrumentos musicales.
 
+6.**Ejercicio de Genéricos💡**
+
+Este proyecto contiene un ejercicio práctico sobre el uso de genéricos en Java. La clase `ContenedorGenerico` permite almacenar y recuperar elementos de cualquier tipo, proporcionando así una manera flexible y segura de manejar datos genéricos.
+
 ## Cómo Empezar 🛠️
 
 1. Clona este repositorio a tu máquina local usando el siguiente comando:
