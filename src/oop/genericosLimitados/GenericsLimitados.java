@@ -17,7 +17,7 @@ class ContenedorNumerico<T extends Number> {
     }
 }
 
-// Genéricos de límite inferior (corregido)
+// Genéricos de límite inferior 
 class ContenedorSuperclase<T> {
     private T elemento;
 
