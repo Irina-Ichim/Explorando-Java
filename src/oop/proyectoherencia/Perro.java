@@ -1,4 +1,4 @@
-package oop.proyectoherencia;
+package proyectoherencia;
 
 // Perro.java
 public class Perro extends Animal {

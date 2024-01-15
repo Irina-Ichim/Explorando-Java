@@ -1,4 +1,4 @@
-package oop.proyectoherencia;
+package proyectoherencia;
 
 // Main.java
 public class Main {

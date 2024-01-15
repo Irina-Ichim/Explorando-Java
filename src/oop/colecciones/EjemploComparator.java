@@ -29,9 +29,9 @@ class Persona1 {
     }
 }
 
-class ComparadorPorEdad implements Comparator<Persona> {
+class ComparadorPorEdad implements Comparator<Persona1> {
     @Override
-    public int compare(Persona persona1, Persona persona2) {
+    public int compare(Persona1 persona1, Persona1 persona2) {
         return Integer.compare(persona1.getEdad(), persona2.getEdad());
     }
 }
@@ -39,12 +39,12 @@ class ComparadorPorEdad implements Comparator<Persona> {
 public class EjemploComparator {
     public static void main(String[] args) {
         // Crear personas
-        Persona persona1 = new Persona("Alice", 30);
-        Persona persona2 = new Persona("Bob", 25);
-        Persona persona3 = new Persona("Charlie", 35);
+        Persona1 persona1 = new Persona1("Alice", 30);
+        Persona1 persona2 = new Persona1("Bob", 25);
+        Persona1 persona3 = new Persona1("Charlie", 35);
 
         // Crear una lista de personas
-        List<Persona> listaPersonas = new ArrayList<>();
+        List<Persona1> listaPersonas = new ArrayList<>();
         listaPersonas.add(persona1);
         listaPersonas.add(persona2);
         listaPersonas.add(persona3);
@@ -54,7 +54,7 @@ public class EjemploComparator {
 
         // Imprimir la lista antes de ordenar
         System.out.println("Lista antes de ordenar:");
-        for (Persona persona : listaPersonas) {
+        for (Persona1 persona : listaPersonas) {
             System.out.println(persona);
         }
 
@@ -63,7 +63,7 @@ public class EjemploComparator {
 
         // Imprimir la lista después de ordenar por edad
         System.out.println("\nLista después de ordenar por edad:");
-        for (Persona persona : listaPersonas) {
+        for (Persona1 persona : listaPersonas) {
             System.out.println(persona);
         }
     }

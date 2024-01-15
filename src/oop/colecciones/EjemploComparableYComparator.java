@@ -3,11 +3,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class Persona implements Comparable<Persona> {
+class Persona2 implements Comparable<Persona2> {
     private String nombre;
     private int edad;
 
-    public Persona(String nombre, int edad) {
+    public Persona2(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
@@ -21,15 +21,15 @@ class Persona implements Comparable<Persona> {
     }
 
     @Override
-    public int compareTo(Persona otraPersona) {
+    public int compareTo(Persona2 otraPersona) {
         // Comparación por edad (orden natural)
         return Integer.compare(this.edad, otraPersona.edad);
     }
 
     // Comparador externo por nombre
-    public static final Comparator<Persona> COMPARADOR_POR_NOMBRE = new Comparator<Persona>() {
+    public static final Comparator<Persona2> COMPARADOR_POR_NOMBRE = new Comparator<Persona2>() {
         @Override
-        public int compare(Persona persona1, Persona persona2) {
+        public int compare(Persona2 persona1, Persona2 persona2) {
             // Comparación por nombre (extrínseca)
             return persona1.nombre.compareTo(persona2.nombre);
         }
@@ -47,19 +47,19 @@ class Persona implements Comparable<Persona> {
 public class EjemploComparableYComparator {
     public static void main(String[] args) {
         // Crear personas
-        Persona persona1 = new Persona("Alice", 30);
-        Persona persona2 = new Persona("Bob", 25);
-        Persona persona3 = new Persona("Charlie", 35);
+        Persona2 persona1 = new Persona2("Alice", 30);
+        Persona2 persona2 = new Persona2("Bob", 25);
+        Persona2 persona3 = new Persona2("Charlie", 35);
 
         // Crear una lista de personas
-        List<Persona> listaPersonas = new ArrayList<>();
+        List<Persona2> listaPersonas = new ArrayList<>();
         listaPersonas.add(persona1);
         listaPersonas.add(persona2);
         listaPersonas.add(persona3);
 
         // Imprimir la lista antes de ordenar
         System.out.println("Lista antes de ordenar:");
-        for (Persona persona : listaPersonas) {
+        for (Persona2 persona : listaPersonas) {
             System.out.println(persona);
         }
 
@@ -68,16 +68,16 @@ public class EjemploComparableYComparator {
 
         // Imprimir la lista después de ordenar por edad
         System.out.println("\nLista después de ordenar por edad:");
-        for (Persona persona : listaPersonas) {
+        for (Persona2 persona : listaPersonas) {
             System.out.println(persona);
         }
 
         // Ordenar la lista utilizando Comparator (por nombre)
-        Collections.sort(listaPersonas, Persona.COMPARADOR_POR_NOMBRE);
+        Collections.sort(listaPersonas, Persona2.COMPARADOR_POR_NOMBRE);
 
         // Imprimir la lista después de ordenar por nombre
         System.out.println("\nLista después de ordenar por nombre:");
-        for (Persona persona : listaPersonas) {
+        for (Persona2 persona : listaPersonas) {
             System.out.println(persona);
         }
     }
